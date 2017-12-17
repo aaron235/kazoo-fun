@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>♪ FUN</title>
+
+	<style>
+		html, body, div {
+			background-color: #000;
+			height: 100%;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		titleStrings = ["♪ FUN", "♪ ᖷUИ", "♪ ᖶ∩N", "♪ ИUᖷ"] ;
+		currentTitleString = 0;
+		window.setInterval( function() {
+			document.title =  titleStrings[currentTitleString];
+			currentTitleString = ++currentTitleString > 3 ? 0 : currentTitleString;
+		},  345.88 );
+	</script>
+
+	<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/g-sgw9bPV4A?rel=0&amp;controls=0&amp;showinfo=0&loop=1&autoplay=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</body>
+</html>
